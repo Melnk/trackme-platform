@@ -1,4 +1,4 @@
-package ru.javabegin.micro.demo.userservice.Entity;
+package ru.javabegin.micro.demo.userservice.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
