@@ -1,8 +1,8 @@
-package ru.javabegin.micro.demo.userservice.repositories;
+package me.Melnik.trackme.userservice.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.javabegin.micro.demo.userservice.entities.User;
+import me.Melnik.trackme.userservice.entities.User;
 
 import java.util.Optional;
 

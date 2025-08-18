@@ -1,12 +1,12 @@
-package ru.javabegin.micro.demo.userservice.controllers;
+package me.Melnik.trackme.userservice.controllers;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.javabegin.micro.demo.userservice.dto.RegisterRequest;
-import ru.javabegin.micro.demo.userservice.dto.UserResponse;
-import ru.javabegin.micro.demo.userservice.services.UserService;
+import me.Melnik.trackme.userservice.dto.RegisterRequest;
+import me.Melnik.trackme.userservice.dto.UserResponse;
+import me.Melnik.trackme.userservice.services.UserService;
 
 @RestController
 @RequiredArgsConstructor

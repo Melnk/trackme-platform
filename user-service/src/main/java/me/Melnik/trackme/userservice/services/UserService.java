@@ -1,14 +1,14 @@
-package ru.javabegin.micro.demo.userservice.services;
+package me.Melnik.trackme.userservice.services;
 
 import org.hibernate.service.spi.ServiceException;
 import org.springframework.dao.DataAccessException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.javabegin.micro.demo.userservice.dto.RegisterRequest;
-import ru.javabegin.micro.demo.userservice.dto.UserResponse;
-import ru.javabegin.micro.demo.userservice.entities.User;
-import ru.javabegin.micro.demo.userservice.repositories.UserRepository;
+import me.Melnik.trackme.userservice.dto.RegisterRequest;
+import me.Melnik.trackme.userservice.dto.UserResponse;
+import me.Melnik.trackme.userservice.entities.User;
+import me.Melnik.trackme.userservice.repositories.UserRepository;
 
 import java.util.Optional;
 

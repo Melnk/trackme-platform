@@ -1,4 +1,4 @@
-package ru.javabegin.micro.demo.userservice;
+package me.Melnik.trackme.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

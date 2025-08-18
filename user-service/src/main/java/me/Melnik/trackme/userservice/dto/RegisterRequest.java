@@ -1,4 +1,4 @@
-package ru.javabegin.micro.demo.userservice.dto;
+package me.Melnik.trackme.userservice.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
